@@ -11,7 +11,7 @@ from typing import Any
 
 # ── FelizAI API（OpenAI 兼容） ──────────────────────────
 FELIZ_BASE_URL = "https://v2.llm.api.felizai.cn/v1"
-FELIZ_API_KEY = os.environ.get("FELIZ_API_KEY", "sk-tmGVKKze4krQQJ2yd4xhMe8SA23uFj5wfcr8Z1TYHHcZ7X3W")
+FELIZ_API_KEY = os.environ.get("FELIZ_API_KEY", "")
 FELIZ_MODEL = "qwen-vl-plus"
 
 # 默认忽略系统 HTTP(S)_PROXY，避免代理导致 SSL EOF（Windows 常见）
